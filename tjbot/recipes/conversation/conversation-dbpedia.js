@@ -15,7 +15,7 @@
  */
 
 var TJBot = require('tjbot');
-var config = require('./config');
+var config = require('./config.default');
 var language = 'pt';
 var nlu = require('../nlu/nlu');
 var dbpedia = require('../dbpedia/dbpedia');
